@@ -1,0 +1,70 @@
+.news-outer-wrapper{
+    display: flex;
+    width: 100vw;
+    margin-top: 30px;
+}
+.common-news-wrapper{
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+    position: relative;
+}
+.common-news-btn{
+    font-size: 1.2rem;
+    padding: 16px 0px;
+    width: 49%;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.common-news-btn:hover{
+    background-color: black;
+    color: white;
+}
+.common-news-btn-wrapper{
+    background: white;
+    width: 100%;
+  border-radius: 5px;
+  position: sticky;
+}
+.common-newsCards-wrapper{
+    width: 100%;
+    height: 60vh;
+    overflow-y:scroll;
+}
+.common-newsCard{
+    display: flex;
+    height: min-content;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.common-newsCard:hover{
+    box-shadow: 0px 0px 5px black;
+}
+.common-newsCard-img img{
+    width: 8vw;
+    height: 100%;
+    border-radius: 3px;
+}
+.common-newsCard-heading{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.common-newsCard-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2px;
+    padding-right: 4px;
+}
+.common-newsCard-date{
+    width: 200px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.common-news-slider{
+    display: none;
+}

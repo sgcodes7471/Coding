@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="common-news.css">
+    <link rel="stylesheet" href="featued-news.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="hamburger.css">
+</head>
+<body>
+    <div class="title-wrapper">
+        TheNewsHive
+    </div>
+
+    <div class="navbar-outer-wrapper">
+        <div class="hamburger-wrapper">
+            <button class="hamburger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                  </svg>
+                  
+            </button>
+        </div>
+        <div class="navbar-list-wrapper">
+            <ul>
+                <li>HOME</li>
+                <li>NEWS</li>
+                <li>WORLD</li>
+                <li>BUSINESS</li>
+                <li>POLITICS</li>
+                <li>ENTERTAINMENT</li>
+                <li>SPORTS</li>
+            </ul> 
+        </div>
+        <div class="hamburger-menu">
+            <ul>
+                <li>HOME</li>
+                <li>NEWS</li>
+                <li>WORLD</li>
+                <li>BUSINESS</li>
+                <li>POLITICS</li>
+                <li>ENTERTAINMENT</li>
+                <li>SPORTS</li>
+            </ul> 
+        </div>
+        <div class="navbar-search-wrapper">
+            <input id="search-bar" type="text" placeholder="Search here" name="searchBar">
+            <button class="search-icon" onmouseenter="searchAppear()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd" />
+              </svg>
+              </button>
+        </div>
+    </div>
+
+    <div class="bar-wrapper">
+        <p class="bar-heading" ><svg id="bhijli" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+            <path fill-rule="evenodd" d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z" clip-rule="evenodd" />
+          </svg>
+          BREAKING NEWS</p>
+        <p class="bar-news">Local coming back on street again after</p>
+        <div class="bar-right-wrapper">
+            <div class="bar-weather"><svg id="badal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                <path d="M1 12.5A4.5 4.5 0 0 0 5.5 17H15a4 4 0 0 0 1.866-7.539 3.504 3.504 0 0 0-4.504-4.272A4.5 4.5 0 0 0 4.06 8.235 4.502 4.502 0 0 0 1 12.5Z" />
+              </svg>
+              <svg id="chaand" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
+              </svg>
+              
+              
+              </div>
+            <div class="bar-date">March 15, 2024 in</div>
+        </div>
+    </div>
+
+    <div class="news-outer-wrapper">
+        <div class="featured-news-wrapper">
+            <div class="featured-news-1-wrapper" >
+                <div class="featured-newsCard">
+                    <img src="image.png" alt="">
+                    <div class="featured-newsCard-tags-wrapper">
+                        <p class="featured-news-tags">Culture</p>
+                        <p class="featured-news-tags">Featured</p>
+                    </div>
+                    <div class="featured-news-heading">Why reading newspaper are mo...</div>
+                    <div class="featured-news-author">Srinjoy Ghosh</div>
+                    <div class="featured-news-date"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                      </svg>
+                      October 18, 2022</div>
+                </div>
+            </div>
+            <div class="featured-news-2-wrapper">
+                <div class="featured-newsCard">
+                    <img src="image.png" alt="">
+                    <div class="featured-newsCard-tags-wrapper">
+                        <p class="featured-news-tags">Lifestyle</p>
+                        <p class="featured-news-tags">Featured</p>
+                    </div>
+                    <div class="featured-news-heading">Jane became one of the most...</div>
+                    <div class="featured-news-author">Srinjoy Ghosh</div>
+                    <div class="featured-news-date"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                      </svg>
+                      October 18, 2022</div>
+                </div>
+            </div>
+            <div class="featured-news-3-wrapper">
+                <div class="featured-newsCard">
+                    <img src="image.png" alt="">
+                    <div class="featured-newsCard-tags-wrapper">
+                        <p class="featured-news-tags">Food</p>
+                        <p class="featured-news-tags">Featured</p>
+                    </div>
+                    <div class="featured-news-heading">What are the best type coffee in the</div>
+                    <div class="featured-news-author">Srinjoy Ghosh</div>
+                    <div class="featured-news-date"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                      </svg>
+                      October 18, 2022</div>
+                </div>
+                <div class="featured-newsCard">
+                    <img src="image.png" alt="">
+                    <div class="featured-newsCard-tags-wrapper">
+                        
+                        <p class="featured-news-tags">Health</p>
+                        <p class="featured-news-tags">Featured</p>
+                    </div>
+                    <div class="featured-news-heading">Practising gratitude regularly can make...</div>
+                    <div class="featured-news-author">Srinjoy Ghosh</div>
+                    <div class="featured-news-date"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                      </svg>
+                      October 18, 2022</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="common-news-slider">
+            <button class="slider-btn" onclick="newsSlider()"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m18.75 4.5-7.5 7.5 7.5 7.5m-6-15L5.25 12l7.5 7.5" />
+              </svg>
+               </button>
+        </div>
+
+
+        <div class="common-news-wrapper">
+            <div class="common-news-btn-wrapper">
+                <button class="common-news-btn">Latest</button>
+                <button class="common-news-btn">Popular</button>
+            </div>
+            <div class="common-newsCards-wrapper">
+                <div class="common-news-scroll">
+                    <div class="common-newsCard">
+                        <div class="common-newsCard-img">
+                            <img src="image.png" alt="">
+                        </div>
+                        <div class="common-newsCard-info">
+                            <div class="common-newsCard-heading">ICC T20 World Cup 2022 Schedule update</div>
+                            <div class="common-newsCard-date"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                              </svg>
+                              October 21, 2022</div>
+                        </div>
+                    </div>
+                    <div class="common-newsCard">
+                        <div class="common-newsCard-img">
+                            <img src="image.png" alt="">
+                        </div>
+                        <div class="common-newsCard-info">
+                            <div class="common-newsCard-heading">ICC T20 World Cup 2022 Schedule update</div>
+                            <div class="common-newsCard-date"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                              </svg>
+                              October 21, 2022</div>
+                        </div>
+                    </div>
+                    <div class="common-newsCard">
+                        <div class="common-newsCard-img">
+                            <img src="image.png" alt="">
+                        </div>
+                        <div class="common-newsCard-info">
+                            <div class="common-newsCard-heading">ICC T20 World Cup 2022 Schedule update</div>
+                            <div class="common-newsCard-date"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                              </svg>
+                              October 21, 2022</div>
+                        </div>
+                    </div>
+                    <div class="common-newsCard">
+                        <div class="common-newsCard-img">
+                            <img src="image.png" alt="">
+                        </div>
+                        <div class="common-newsCard-info">
+                            <div class="common-newsCard-heading">ICC T20 World Cup 2022 Schedule update</div>
+                            <div class="common-newsCard-date"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                              </svg>
+                              October 21, 2022</div>
+                        </div>
+                    </div>
+                    <div class="common-newsCard">
+                        <div class="common-newsCard-img">
+                            <img src="image.png" alt="">
+                        </div>
+                        <div class="common-newsCard-info">
+                            <div class="common-newsCard-heading">ICC T20 World Cup 2022 Schedule update</div>
+                            <div class="common-newsCard-date"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                              </svg>
+                              October 21, 2022</div>
+                        </div>
+                    </div>
+                    <div class="common-newsCard">
+                        <div class="common-newsCard-img">
+                            <img src="image.png" alt="">
+                        </div>
+                        <div class="common-newsCard-info">
+                            <div class="common-newsCard-heading">ICC T20 World Cup 2022 Schedule update</div>
+                            <div class="common-newsCard-date"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                              </svg>
+                              October 21, 2022</div>
+                        </div>
+                    </div>
+                    <div class="common-newsCard">
+                        <div class="common-newsCard-img">
+                            <img src="image.png" alt="">
+                        </div>
+                        <div class="common-newsCard-info">
+                            <div class="common-newsCard-heading">ICC T20 World Cup 2022 Schedule update</div>
+                            <div class="common-newsCard-date"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                              </svg>
+                              October 21, 2022</div>
+                        </div>
+                    </div>
+                    <div class="common-newsCard">
+                        <div class="common-newsCard-img">
+                            <img src="image.png" alt="">
+                        </div>
+                        <div class="common-newsCard-info">
+                            <div class="common-newsCard-heading">ICC T20 World Cup 2022 Schedule update</div>
+                            <div class="common-newsCard-date"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                              </svg>
+                              October 21, 2022</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+
+        
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
