@@ -73,17 +73,6 @@ const newsSlider = ()=>{
     }
 }
 
-//this brings the content of the right section news when hovered over
-// const commonNewsCard = document.querySelectorAll('.common-newsCard')
-// commonNewsCard.forEach(card => {
-//     card.addEventListener('mouseenter' , ()=>{
-//         card.lastElementChild.classList.add('card-visible')
-//     })
-//     card.addEventListener('mouseleave' , ()=>{
-//         card.lastElementChild.classList.remove('card-visible')
-//     })
-// });
-
 
 
 const Ncard = (headline , author , date , image , content)=>{
